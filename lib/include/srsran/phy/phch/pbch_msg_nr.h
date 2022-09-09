@@ -22,6 +22,10 @@
 #ifndef SRSRAN_PBCH_MSG_NR_H
 #define SRSRAN_PBCH_MSG_NR_H
 
+// 术语备注
+// MIB : master information block,定义在TS 38.331-6.2.2.
+//       注意这是个RRC层的概念,pbch只是个传输上层信息通道.
+
 #include "srsran/config.h"
 #include "srsran/phy/common/phy_common_nr.h"
 #include <stdbool.h>

@@ -22,6 +22,14 @@
 #ifndef SRSRAN_PSS_NR_H
 #define SRSRAN_PSS_NR_H
 
+// 术语备注
+// PSS : Primary synchronization signal
+// N_id_2 : Physical cell ID 2 ,见 TS 38.211 7.4.2.1
+// beta pss : 见 TS 38.211 7.4.3.1.1
+//
+// 模块功能备注
+// 主要流程是将参数N_id_2映射到RE,映射过程涉及配置参数bta-pss;或者是从RE中提取N_id_2.
+
 #include "srsran/config.h"
 #include "srsran/phy/common/phy_common_nr.h"
 #include <inttypes.h>
